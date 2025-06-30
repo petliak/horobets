@@ -1,0 +1,13 @@
+{% extends "basil_admin.html" %}
+{% block main %}
+            <h2>Видалити записи</h2>
+            <form class="delete" name = "del_artkl" method="POST" action="/del_article">
+                {% for article in articles %}
+                    <p>
+                        <input name="id" value="{{article.id}}" id="{{article.id}}"  type="checkbox">
+                        <label for="{{article.id}}">{{article.title}}</label>
+                    </p>
+                {% endfor %}
+                <button class="dell" type="submit" name="delete">Видалити</button>
+            </form>
+{% endblock %}

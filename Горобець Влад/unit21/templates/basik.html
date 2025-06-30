@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Rediscover the world </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../static/css/style.css">
+	</head>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="/">main</a></li>
+				<li><a href="/Admin">admin</a></li>
+				<li><a href="/articles">article</a></li>
+			</ul>
+		</nav>
+		<p>
+		{% if username %}
+			hello, {{ username }}!
+		{% else %}
+			Hello, Stranger!
+		{% endif %}
+
+		</p>
+	</header>
+
+	<main>
+	    {% block main %}
+        {% endblock %}
+	</main>
+	<footer>
+		<p>Copyright © 1999-2020 Ctrip.com (Hong Kong) Limited. All rights reserved.
+		<br>Site Operator: Ctrip.com (Hong Kong) Limited
+		<br>Hong Kong Travel License No. 352367</p>
+	</footer>
+	<body>
+	</body>
+</html>

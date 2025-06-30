@@ -1,0 +1,17 @@
+{% extends "basik.html" %}
+{% block main %}
+<h1 class = "korn">Add thriller</h1>
+<form class="pop" name="thriller" method="POST" action="/news/addthriller">
+
+      <h5 class="kartoha">Thriller title</h5>
+      <input type="text" name="title" placeholder="Thriller title">
+
+      <h5 class="kartoha">Video URL</h5>
+      <input type="url" name="video_url" placeholder="Video URL">
+
+      <h5 class="kartoha">Treiler text</h5>
+      <textarea name="area" cols="100" rows="15" required placeholder="Treiler Text"></textarea>
+
+      <button name="submit"  type="submit">add thriller</button>
+</form>
+{% endblock %}

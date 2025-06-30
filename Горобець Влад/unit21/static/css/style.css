@@ -1,0 +1,156 @@
+*{margin :0; padding : 0}/* margin - зовнішній*/
+
+.about{
+	font-size:25px;
+	text-indent:30px;
+	line-height:30px;
+	text-align:justify;
+	background-color:black;
+	color:white;
+	margin:50px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+header ul{
+	display:flex;
+	
+	
+}
+
+header li{
+	list-style-type:none;
+	padding:6px;
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+}
+
+header{
+	background-color:black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu{
+	background-image:url(../images/aleksandr.jpg);
+	background-size:cover;
+	height:600px;
+	text-align:center;
+}
+
+.menu h1{
+	color:white;
+	font-size:70px;
+	padding-top:150px;
+}
+
+.menu p{
+	padding-top:100px;
+	font-size:30px;
+	color:white;
+	text-shadow:2px 2px 2px #000000;
+}
+
+footer{
+	color:white;
+	font-size:15px;
+	text-align:center;
+	background-color:black
+}
+
+body{
+	background-color:black;
+	color:white;
+	
+}
+.loh h2{
+	color:white;
+	font-size:50px;
+
+	
+}
+
+form {
+	margin:50px;
+	font-size:30px;
+	text-align:center;
+}
+
+option{
+	font-size:20px;
+}
+
+button{
+	background-color:black;
+	color:white;
+	font-size:15px;
+	margin:15px;
+	padding:10px;
+}
+.tunel{
+	background-image: url(../images/tunel.jpg);
+	height: 787px;
+}
+
+.articlu{
+	border: 3px solid aliceblue ;
+	padding:10px;
+	margin: 30px 100px 30px 100px;
+	display: flex;
+}
+
+.ar_img{
+	width: 270px;
+	overflow: hidden;
+}
+
+.ar_title{
+	max-width: 850px;
+	padding: 20px;
+	color:#c4ff9c;
+	font-size:30px;
+
+}
+ar_text{
+	font-size: 15px;
+	text-align: justify;
+	text-indent:15px ;
+	max-height: 160px;
+	overflow: hidden;
+
+}
+
+.ar_continent{
+	color:#9fa59d;
+	font-size:15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: cyan;
+}
+
+.delete{
+	margin: 20px;
+}
+
+.dell{
+	color: black;
+	border: gray 3px;
+	background-color:wheat;
+}
+
+.details{
+	margin: 30px;
+	padding: 20px;
+	background-image: url(../images/fon_details.jpg);
+	background-size: cover;
+}
+.row_tittle{
+	text-decoration: none;
+	color: #c4ff9c;
+	font-size: 30px;
+}

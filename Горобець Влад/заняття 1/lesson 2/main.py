@@ -1,0 +1,8 @@
+print("привіт")
+input()
+print("Як я можу для тебе звертатися?")
+name=input()
+print("Дуже приємно " + name)
+print("Як звати твого кота?")
+nam=input()
+print(" %s, ім'я для кота %s це цікаво " %(name,nam))

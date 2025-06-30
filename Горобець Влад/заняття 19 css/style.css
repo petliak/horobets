@@ -1,0 +1,92 @@
+*{margin :0; padding : 0}
+
+.about{
+	font-size:25px;
+	text-indent:30px;
+	line-height:30px;
+	text-align:justify;
+	background-color:black;
+	color:white;
+	margin:50px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+header ul{
+	display:flex;
+	
+	
+}
+
+header li{
+	list-style-type:none;
+	padding:6px;
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+}
+
+header{
+	background-color:black;
+}
+
+.menu{
+	background-image:url(images/aleksandr.jpg);
+	background-size:cover;
+	height:600px;
+	text-align:center;
+}
+
+.menu h1{
+	color:white;
+	font-size:70px;
+	padding-top:150px;
+}
+
+.menu p{
+	padding-top:100px;
+	font-size:30px;
+	color:white;
+	text-shadow:2px 2px 2px black;
+}
+
+footer{
+	color:white;
+	font-size:15px;
+	text-align:center;
+	background-color:black
+}
+
+body{
+	background-color:black;
+	color:white;
+	
+}
+.loh h2{
+	color:white;
+	font-size:50px;
+	width:400px;
+	
+}
+
+form {
+	margin:50px;
+	font-size:30px;
+	text-align:center;
+}
+
+option{
+	font-size:20px;
+}
+
+button{
+	background-color:black;
+	color:white;
+	font-size:15px;
+	margin:15px;
+	padding:10px;
+}

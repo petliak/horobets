@@ -1,0 +1,21 @@
+{% extends "basik.html" %}
+{% block main %}
+    <section class ="tunel">
+        <h1>Discover something new</h1>
+    </section>
+    <section>
+        <h2>Відкрий нові міста</h2>
+        {% for article in articles %}
+           <div class="articlu">
+               <div class="ar_img"><img height="390px" src ="{{article.url}}"></div>
+               <div>
+                    <div class="ar_title"><h3>{{article.title}}</h3></div>
+                    <div class="ar_text"><p>{{article.text}}</p></div>
+                    <div class="ar_continent"><h6>{{article.continent}}</h6></div>
+                   <div class="ar_details"><a href="/post_dateils/{{article.id}}"><h5>More Details</h5></a></div>
+               </div>
+           </div>
+        {% endfor %}
+    </section>
+
+{% endblock %}

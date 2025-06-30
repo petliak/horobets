@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 110px;
+    padding: 0px;
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu {
+    color:purple;
+	font-size: 30px;
+
+}
+.tunel{
+	background-image: url(../images/tunel.jpg);
+	height: 787px;
+}
+
+.articlu{
+	border: 3px solid aliceblue ;
+	padding:10px;
+	margin: 30px 100px 30px 100px;
+	display: flex;
+}
+
+.ar_video_url{
+	width: 270px;
+	overflow: hidden;
+}
+
+.ar_title{
+	max-width: 850px;
+	padding: 20px;
+	color:#c4ff9c;
+	font-size:30px;
+
+}
+ar_area{
+	font-size: 15px;
+	text-align: justify;
+	text-indent:15px ;
+	max-height: 160px;
+	overflow: hidden;
+
+}
+
+.loh {
+	display: flex;
+	justify-content: center;
+}
+
+.pop{
+	display: flex;
+	justify-content: center;
+}
+.korn{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.kartoha{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin: 35px;
+ }
+.tree{
+	background-image:url(../images/1.webp) ;
+	text-decoration: none;
+	color:white;
+}
+.main_page{
+	background-image: url(../images/1.webp) ;
+	color:white;
+}
+
+p{
+	background-color: black;
+	color:purple;
+}

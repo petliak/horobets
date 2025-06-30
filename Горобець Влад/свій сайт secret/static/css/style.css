@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 110px;
+    padding: 0px;
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu {
+    background-image:  url(../images/1.webp);
+    background-size:  cover;
+
+}

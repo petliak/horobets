@@ -1,0 +1,16 @@
+{% extends "basik.html" %}
+{% block main %}
+<h1>Add thriller</h1>
+      <form action="/thriller" method="POST" action="/news/addthriller"></form>
+      <h5>Thriller title</h5>
+      <input type="text" name="title" placeholder="Thriller title">
+
+      <h5>Video URL</h5>
+      <input type="url" name="video_url" placeholder="Video URL">
+
+      <h5>Treiler text</h5>
+      <textarea name="area" cols="100" rows="15" required placeholder="Treiler Text"></textarea>
+
+      <button name="submit"  type="submit">add thriller</button>
+
+{% endblock %}
